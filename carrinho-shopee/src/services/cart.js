@@ -51,8 +51,9 @@ async function calculeteTotal(userCart) {
 async function displayCart(userCart) {
     console.log("shopee display");
     userCart.forEach((item, index)=>{
+        console.log("---------------------------------------------------------------------------\n")
 
-        console.log(`${index + 1}. ${item.name} - valor ${item.price} | ${item.quantity} | subtotal ${item.subtotal().toFixed(2)}`);
+        console.log(`${index + 1}. \t ${item.name} \t - \t valor ${item.price} \t | ${item.quantity} | \t subtotal: ${item.subtotal().toFixed(2)}\n`);
 
     });
     

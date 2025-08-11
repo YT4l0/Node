@@ -1,0 +1,13 @@
+{
+  "name": "env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start:Dev" : "node --env-file=.env --watch src/index.js"
+   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
